@@ -1,10 +1,6 @@
 # arm64-mTHP Autopilot — APTech SlimBytes 2026
 
-## Hackathon Submission: eBPF-Driven Multi-size THP Order Selection for ARM64 Wearables
-
-**Team:** Shree Buradkar (sburadka@qti.qualcomm.com)
-**Platform:** Qualcomm SM4100/SM5100 Snapdragon Wear, Android GKI Linux 6.12
-**Project:** ASPEN_MIGRATION
+## Hackathon Submission: eBPF-Driven Multi-size THP Order Selection for ARM64 Wearable
 
 ---
 
