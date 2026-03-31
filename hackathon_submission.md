@@ -1,6 +1,10 @@
 # arm64-mTHP Autopilot — APTech SlimBytes 2026
 
-## Hackathon Submission: eBPF-Driven Multi-size THP Order Selection for ARM64 Wearable
+## Hackathon Submission: eBPF-Driven Multi-size THP Order Selection for ARM64 Wearables
+
+**Team:** Author ()
+**Platform:** ARM64 Wearable SoC, Android GKI Linux 6.12
+**Project:** ASPEN_MIGRATION
 
 ---
 
@@ -26,7 +30,7 @@ Linux 6.8 introduced multi-size Transparent Huge Pages: the kernel CAN allocate 
 
 ### The Impact on Wearables
 
-On Snapdragon Wear devices with 1-2GB RAM:
+On ARM64 Wearable devices with 1-2GB RAM:
 
 - Page tables consume 10-30MB (1.5-3% of total RAM)
 - TLB miss rate of 15-25% under normal UI workloads
@@ -220,7 +224,7 @@ adb shell "/data/local/tmp/mthp_classifier"
 
 ### Ship Layer 1 Only
 
-For customer Snapdragon Wear devices:
+For customer ARM64 Wearable devices:
 
 1. Apply 3 kernel patches to GKI source (`mm/Kconfig`, `mm/Makefile`, `mm/memory.c`)
 2. Add `mm/mthp_bestfit.c` + `include/linux/mthp_bestfit.h`
